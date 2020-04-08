@@ -1,23 +1,23 @@
 # Test-1
 #mod and packages 
-#def say_hello(name='world', greeting =None):
-    # if greeting==None:
-    #  print(f'Hello {name}!')
-    # else:
-    #   print(f'{greeting} {name} !')
+def say_hello(name='world', greeting =None):
+    if greeting==None:
+     print(f'Hello {name}!')
+     else:
+     print(f'{greeting} {name} !')
     
 
-# say_hello()
-# say_hello('Bob')
-# say_hello(greeting='Howdy')
-# say_hello('Bob','Howdy')
+say_hello()
+say_hello('Bob')
+say_hello(greeting='Howdy')
+say_hello('Bob','Howdy')
 
-# def add_two_numbers(x,y):
-#     return x + y
+def add_two_numbers(x,y):
+  return x + y
 
-# add_two_numbers (4,6)
-# result = add_two_numbers (5,7)
-# print (result)
+add_two_numbers (4,6)
+result = add_two_numbers (5,7)
+print (result)
 
 #list returning funktions 
 
@@ -36,6 +36,7 @@ my_deck = create_deck()
 print(len(my_deck))
 
 # arbitrary arguments list *args
+
 def print_args(*args):
     for arg in args:
         print (f'arg={arg}')
